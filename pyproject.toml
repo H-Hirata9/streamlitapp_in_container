@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "streamlit-template"
+version = "0.1.0"
+description = ""
+authors = ["H-Hirata9"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "streamlit_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+ruff = "^0.0.282"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
